@@ -1,0 +1,303 @@
+* {
+    font-family: roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-color: #264653;
+    padding: 0px 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 8px 30px;
+    background-color: tomato;
+    border: none;
+    margin-left: 80px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.banner {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerLeft p {
+    color: white;
+    padding: 10px 100px 10px 0px;
+
+}
+
+.bannerLeft h1 {
+    color: white;
+    font-size: 40px;
+    padding: 6px 0px;
+}
+
+.bannerBtn {
+    padding: 8px 30px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.fetured-top {
+    padding: 50px 0px 0px 20px;
+    text-align: center;
+}
+
+.fetured-top h1 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.fetured-top p {
+    color: tomato;
+    font-weight: bold;
+}
+
+.fetured {
+    padding: 0px 80px;
+}
+
+.feture-contant {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+.fratureImg {
+    height: 250px;
+}
+
+.latestNews {
+    padding: 0px 80px;
+}
+
+.latestNews h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(44, 42, 42);
+}
+
+.news-contener {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 0px 60px 0px;
+}
+
+.newsImg {
+    height: 250px;
+    width: 100%;
+}
+
+.newsCard {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.newsCard h4 {
+    padding: 10px 0px;
+    font-size: 30px;
+    color: rgb(44, 42, 42);
+}
+
+.newsCard p {
+    padding-bottom: 30px;
+    color: rgb(44, 42, 42);
+}
+
+.newsBtn {
+    padding: 10px 30px;
+    border: 1px solid tomato;
+    color: tomato;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.clint-contener {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0px;
+}
+
+.clintCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 50px 40px;
+    border-radius: 5px;
+}
+
+.userImg {
+    height: 130px;
+    border-radius: 100%;
+    width: 130px;
+}
+
+.clintCard p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.ster-icone {
+    color: tomato;
+}
+
+.star {
+    display: flex;
+    gap: 10px;
+    padding: 15px 0px;
+}
+
+.name {
+    color: rgb(0, 128, 128);
+    padding-bottom: 10px;
+}
+
+.name-titel {
+    color: rgb(44, 42, 42);
+}
+
+.contact {
+    padding: 0px 80px;
+    height: 100vh;
+    width: 100%;
+}
+
+.conact-box {
+    height: 92vh;
+    background-color: rgb(163, 163, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conact-box h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 12vh;
+    padding-top: 15px;
+}
+
+form {
+    width: 100%;
+    height: 68vh;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    width: 60%;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    height: 150px;
+    width: 60%;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.submitBtn {
+    padding: 15px 40px;
+    background-color: green;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-size: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.footer-heading {
+    display: flex;
+    gap: 30px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right h4 {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.app img {
+    width: 130px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+.manu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.copy {
+    padding: 20px 0px;
+}
